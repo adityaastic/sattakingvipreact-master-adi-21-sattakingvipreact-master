@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.4abd1852.css",
-    "main.js": "/static/js/main.d942f284.js",
+    "main.css": "/static/css/main.c6be19f0.css",
+    "main.js": "/static/js/main.727e97d3.js",
     "static/media/satta-king-logo.png": "/static/media/satta-king-logo.c4064c3e326d2fd7b9c6.png",
     "index.html": "/index.html",
-    "main.4abd1852.css.map": "/static/css/main.4abd1852.css.map",
-    "main.d942f284.js.map": "/static/js/main.d942f284.js.map"
+    "main.c6be19f0.css.map": "/static/css/main.c6be19f0.css.map",
+    "main.727e97d3.js.map": "/static/js/main.727e97d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4abd1852.css",
-    "static/js/main.d942f284.js"
+    "static/css/main.c6be19f0.css",
+    "static/js/main.727e97d3.js"
   ]
 }
