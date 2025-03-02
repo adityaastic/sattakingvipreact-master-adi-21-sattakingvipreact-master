@@ -1,0 +1,717 @@
+/* General Styles */
+body {
+  background: linear-gradient(135deg, #8B0000, #A61111, #D9534F);
+  color: #FEFEFE;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.homeHeader {
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  border-width: 3px;
+  border-color: #A61111;
+  border-style: outset;
+  margin-top: 2px;
+  color: #FEFEFE;
+  background: linear-gradient(135deg, #8B0000, #A61111);
+}
+
+.main-div {
+  background-color: #000;
+}
+
+.homeHeader,
+.header-heading {
+  background: linear-gradient(135deg, #8B0000, #A61111);
+  padding: 0px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.homeHeader .main-row,
+.section .main-row {
+  padding: 10px;
+}
+
+.homeHeader a {
+  text-decoration: none;
+  color: #F00A3B;
+}
+
+.header-heading a {
+  text-decoration: none;
+}
+
+.homeHeader .link {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+.header-heading h1,
+.bottomResult h1 {
+  color: #F00A3B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-heading {
+  border-radius: 25px !important;
+  border: dotted red;
+}
+
+.header-heading h1 {
+  color: red !important;
+  font-size: 21px !important;
+  padding-bottom: 7px !important;
+}
+
+.header-heading h6 {
+  color: #FEFEFE !important;
+  font-size: 15px !important;
+  font-weight: 700;
+  padding-top: 3px;
+}
+
+.bottomResult h1 {
+  text-shadow: 1px 1px #00f;
+}
+
+.daywisereport h3 {
+  background-color: brown;
+  color: #fff;
+  padding: 1rem 0px;
+}
+
+.currentBanner {
+  background-color: #000;
+  padding: 15px 0px;
+}
+
+.currentBanner h6 {
+  color: #FEFEFE;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.currentBanner p {
+  color: #1ff5ed;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
+
+.currentBanner button {
+  background-color: #FEFEFE;
+  color: red;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.result-button {
+  background-color: red !important;
+  color: #FEFEFE !important;
+  font-size: medium !important;
+  border: none;
+  margin-top: 7px;
+}
+
+.bottomResult {
+  background: linear-gradient(135deg, #8B0000, #A61111);
+  padding: 1rem 0px;
+}
+
+.bottomResult h3 {
+  color: green;
+  text-shadow: 1px 1px #00f;
+  font-size: 50px;
+}
+
+.bottomResult hr {
+  opacity: 1 !important;
+}
+
+.game_column {
+  background-color: #000;
+  text-align: center;
+  border: 1px solid #000;
+  font-weight: bold;
+  color: blue;
+  padding: 1rem 0rem;
+}
+
+.game_column h6 {
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
+}
+
+.game_column span {
+  margin: 1rem;
+}
+
+.textColor {
+  color: #FEFEFE;
+  font-weight: bold;
+}
+/* Table Header */
+.ant-table-content thead tr,
+.ant-table-content thead td {
+  background: linear-gradient(135deg, #8B0000, #A61111); /* Gradient for header */
+  border: 1px solid #A61111;
+  border-radius: 0px;
+}
+
+.ant-table-thead > tr > td,
+.ant-table-thead th {
+  border-radius: 0px !important;
+  border-color: #000;
+  background: linear-gradient(135deg, #8B0000, #A61111) !important; /* Gradient for header cells */
+  color: #e78e8e !important; /* Light red text for contrast */
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+/* Table Body */
+.ant-table-content td,
+.ant-table-content tr,
+.ant-table-content th {
+  padding: 5px 0px !important;
+  text-align: center !important;
+  border-right: 1px solid #444 !important; /* Darker border for contrast */
+  vertical-align: middle !important;
+  text-wrap: nowrap;
+}
+
+.ant-table-wrapper,
+.ant-table-thead tr td,
+.ant-table-content,
+.ant-table-thead th {
+  border-bottom: 1px solid #444 !important; /* Darker border for contrast */
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before,
+.ant-table-wrapper .ant-table-thead > tr > td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  background-color: transparent !important;
+}
+
+.ant-table-wrapper .ant-table-container table > thead > tr:first-child > *:first-child .ant-table-content {
+  border-start-start-radius: 0px !important;
+}
+
+.ant-table-content tr {
+  text-align: center !important;
+  border-right: 1px solid #444 !important; /* Darker border for contrast */
+  vertical-align: middle !important;
+}
+
+.ant-table-wrapper .ant-table-container table > tbody > tr > *:first-child {
+  color: #FEFEFE !important; /* Light text for dark background */
+}
+
+.ant-table-content td,
+.ant-table-content th {
+  padding: 10px 5px !important;
+  text-align: center !important;
+  border-right: 1px solid #444 !important; /* Darker border for contrast */
+  vertical-align: middle !important;
+  border-bottom: 1px solid #444 !important; /* Darker border for contrast */
+  background-color: #1A1A1A !important; /* Dark background for cells */
+  color: #FEFEFE !important; /* Light text for dark background */
+}
+
+/* Alternate Row Colors */
+.ant-table-content tr:nth-child(even) {
+  background-color: #2A2A2A !important; /* Slightly lighter dark shade for even rows */
+}
+
+.ant-table-content tr:nth-child(odd) {
+  background-color: #1A1A1A !important; /* Darker shade for odd rows */
+}
+
+/* Hover Effect */
+.ant-table-content tr:hover {
+  background-color: #8B0000 !important; /* Dark red on hover */
+  color: #FEFEFE !important; /* Light text on hover */
+}
+
+.ant-table-wrapper table {
+  border-radius: 0px !important;
+  background-color: #1A1A1A !important; /* Dark background for the entire table */
+}
+
+/* Scrollbar for Table (if applicable) */
+.ant-table-body::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+  background-color: #1A1A1A; /* Dark background for scrollbar */
+}
+
+.ant-table-body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(135deg, #8B0000, #A61111); /* Gradient for scrollbar thumb */
+  border: 1px solid #444; /* Dark border for scrollbar thumb */
+}
+
+.ant-table-body::-webkit-scrollbar-track {
+  background: #1A1A1A; /* Dark background for scrollbar track */
+}
+
+.disclaimer p,
+.disclaimer span {
+  background-color: #000;
+}
+
+.currentBanner button {
+  background-color: #FEFEFE;
+  color: red;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.result-button {
+  background-color: red !important;
+  color: #FEFEFE !important;
+  font-size: medium !important;
+  border: none;
+  margin-top: 7px;
+}
+
+.bottomResult {
+  background: linear-gradient(135deg, #8B0000, #A61111);
+  padding: 1rem 0px;
+}
+
+.bottomResult h3 {
+  color: green;
+  text-shadow: 1px 1px #00f;
+  font-size: 50px;
+}
+
+.bottomResult hr {
+  opacity: 1 !important;
+}
+
+.game_column {
+  background-color: #000;
+  text-align: center;
+  border: 1px solid #000;
+  font-weight: bold;
+  color: blue;
+  padding: 1rem 0rem;
+}
+
+.game_column h6 {
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
+}
+
+.game_column span {
+  margin: 1rem;
+}
+
+.textColor {
+  color: #FEFEFE;
+  font-weight: bold;
+}
+
+.ant-table-content thead tr,
+.ant-table-content thead td {
+  background-color: #8B0000;
+  border: 1px solid #A61111;
+  border-radius: 0px;
+}
+
+.ant-table-thead>tr>td,
+.ant-table-thead th {
+  border-radius: 0px !important;
+  border-color: #000;
+  background-color: #8B0000 !important;
+  color: #FEFEFE !important;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.ant-table-content td,
+.ant-table-content tr,
+.ant-table-content th {
+  padding: 5px 0px !important;
+  text-align: center !important;
+  border-right: 1px solid #ccc !important;
+  vertical-align: middle !important;
+  text-wrap: nowrap;
+}
+
+.ant-table-wrapper,
+.ant-table-thead tr td,
+.ant-table-content,
+.ant-table-thead th {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before,
+.ant-table-wrapper .ant-table-thead>tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  background-color: transparent !important;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child>*:first-child .ant-table-content {
+  border-start-start-radius: 0px !important;
+}
+
+.ant-table-content tr {
+  text-align: center !important;
+  border-right: 1px solid #ccc !important;
+  vertical-align: middle !important;
+}
+
+.ant-table-wrapper .ant-table-container table>tbody>tr>*:first-child {
+  color: #FEFEFE !important;
+}
+
+.ant-table-content td,
+.ant-table-content th {
+  padding: 10px 5px !important;
+  text-align: center !important;
+  border-right: 1px solid #000 !important;
+  vertical-align: middle !important;
+  border-bottom: 1px solid #000 !important;
+}
+
+.ant-table-content tr:nth-child(even) {
+  background-color: #A61111 !important;
+}
+
+.ant-table-wrapper table {
+  border-radius: 0px !important;
+}
+
+table tbody tr:hover {
+  background-color: #8B0000;
+  color: red;
+}
+
+.disclaimer p,
+.disclaimer span {
+  background-color: #000;
+}
+
+/* Footer Styles */
+#month-select,
+#year-select,
+#game-select,
+#go-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  background-color: #000;
+  color: #FEFEFE;
+}
+
+#go-button {
+  background-color: #8B0000;
+  color: #FEFEFE;
+  cursor: pointer;
+}
+
+#go-button:hover {
+  background-color: #A61111;
+}
+
+.refreshButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: #cd0404 4px solid;
+  background: #000;
+  color: Red;
+  height: auto;
+  padding: 8px;
+  font-style: italic;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #FEFEFE;
+  z-index: 1;
+}
+
+.footerButton {
+  font-weight: 700;
+  text-align: center;
+  background: #0e0e87;
+  padding: 20px;
+  border: solid 3px #fff;
+  border-radius: 50px;
+  color: #FEFEFE;
+}
+
+.footerButton a {
+  text-decoration: none;
+  padding: 10px;
+  color: #FEFEFE;
+  background-color: #000;
+  border-radius: 20px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(to right, #223738, #cd1d1d);
+  padding: unset !important;
+  border: solid 4px red;
+  border-radius: unset;
+  margin: 15px 0px;
+}
+
+.game {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+  background-color: #837e7e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #837e7e;
+  border: 1px solid;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  background-color: #c1c6c2;
+}
+
+.about,
+.faq,
+.privacy,
+.disclaimer,
+.contact {
+  background-color: #000;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #FEFEFE;
+  padding: 20px;
+}
+
+.warning {
+  padding: 1%;
+  color: #FEFEFE;
+  background: #000;
+  margin: 10px 2px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px 0px #bfbfbf;
+  -moz-box-shadow: 0px 1px 3px 0px #bfbfbf;
+  box-shadow: 0px 1px 3px 0px #bfbfbf;
+  border: solid 5px red;
+}
+
+.warning p {
+  color: #FEFEFE;
+}
+
+.accordion-button {
+  background: #000 !important;
+  margin: 0px !important;
+  border: 0px solid #fff !important;
+  color: #FEFEFE !important;
+}
+
+.accordion-body {
+  background: #000 !important;
+  margin: 0px !important;
+  color: #FEFEFE !important;
+}
+
+.marg {
+  margin-bottom: 35px;
+}
+
+.marqu {
+  color: red;
+  font-weight: bold;
+}
+
+.warning h2 {
+  font-weight: bold;
+}
+
+.about h3,
+.faq h3,
+.privacy h3,
+.disclaimer h3,
+.contact h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about p,
+.faq p,
+.privacy p,
+.disclaimer p,
+.contact p {
+  font-size: 20px;
+}
+
+.satta-kingg-res {
+  background: linear-gradient(188deg, #ff1f00, transparent);
+  text-align: center;
+  color: #FEFEFE;
+}
+
+.img {
+  max-width: 300px;
+  padding: 0 20px;
+}
+
+.button-container {
+  color: #FEFEFE;
+  text-align: center;
+  background: red;
+  border: 2px solid;
+}
+
+.button-container a {
+  color: #FEFEFE;
+  text-decoration: none;
+}
+
+.rounded-button {
+  text-align: center;
+  font-weight: 500;
+  background-color: #f7ffb8;
+  color: red;
+  width: 33%;
+  border: 5px solid #000;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: unset;
+}
+
+.sattaReal h5 {
+  color: yellow;
+}
+
+.monthYrTbl {
+  text-transform: uppercase;
+}
+
+.toast-message {
+  background: red !important;
+  color: #FEFEFE !important;
+  border: 5px solid #940505;
+}
+
+.Toastify__toast-body,
+.toast-message button {
+  color: #FEFEFE !important;
+}
+
+.Toastify__progress {
+  background-color: green !important;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-text {
+  animation: blink 2s infinite;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent;
+  animation: effect 1s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(to left, #de2828, #410404);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(to left, #ed1818, #df1f1f);
+    -webkit-background-clip: text;
+  }
+}
+
+.advertisementSection .ad-section {
+  width: 92%;
+  margin: 20px auto;
+  border: 3px solid #e67e22;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.advertisementSection h3 {
+  color: #d35400;
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.advertisementSection h4 {
+  color: #2c3e50;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.advertisementSection .ad-btn {
+  color: #FEFEFE;
+  background-color: #e74c3c;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advertisementSection .ad-btn:hover {
+  background-color: #c0392b;
+  color: #FEFEFE;
+}
+
+.fa-whatsapp {
+  background: green;
+  border-radius: 65%;
+}
+
+.fa-phone {
+  color: green;
+  box-shadow: 0px 0px 7px #fff;
+  background: #fff;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
